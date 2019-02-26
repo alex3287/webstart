@@ -16,7 +16,8 @@
 
 body {
   font-family: 'Museo Sans Light', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  color: #333333;
 }
 
 img {
@@ -82,10 +83,12 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 13px;
 }
 
 .navbar__button {
   margin-left: 30px;
+  font-size: 13px;
 }
 
 .navbar__phone {
@@ -95,7 +98,7 @@ img {
   text-decoration: none;
   margin-top: 10px;
   font-family: 'Museo Sans Bold', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
@@ -132,13 +135,15 @@ img {
   line-height: 55px;
   margin-bottom: 40px;
   font-family: 'Museo Sans Bold', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .hero-text__subtitle {
   display: inline-block;
   font-size: 20px;
   margin-bottom: 66px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 400;
 }
 
 .hero-list {
@@ -174,7 +179,11 @@ img {
 }
 
 .hero-list__text {
-  max-width: 300px;
+  max-width: 240px;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 400;
 }
 
 @media (max-width: 1200px) {
