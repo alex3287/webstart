@@ -2,10 +2,11 @@
   padding: 50px 0
   &-block
     display: flex
-  
+    justify-items: space-between
   &-text
     flex-basis: 50%
-    padding-right: 140px
+    padding-right: 50px
+  
     &__title
       font-size: 41px
       line-height: 55px
@@ -47,20 +48,30 @@
       padding-right: 10px
 @media (max-width: 768px)
   .hero
+    padding: 25px 0
     &-text
+      padding: 0
       &__title
         font-size: 24px
         line-height: 1.4
-        margin-bottom: 15px
-        font-family: 'Museo Sans Light'
+        margin-bottom: 3px
+        +bold
       &__subtitle
         font-size: 16px
-        margin-bottom: 28px
+        margin-bottom: 25px
+        +bold
     &-list
+      margin-bottom: 33px
       &__item
         margin-bottom: 20px
+
       &__text
         font-size: 12px
+        max-width: 208px
+        line-height: 1.4
+        +reg
       &__image
         margin-right: 15px
+    
+
       
