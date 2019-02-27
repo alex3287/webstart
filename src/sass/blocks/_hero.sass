@@ -1,11 +1,12 @@
 .hero
   padding: 50px 0
+  background-color: $secondary
   &-block
     display: flex
     justify-items: space-between
   &-text
     flex-basis: 50%
-    padding-right: 50px
+    padding-right: 100px
   
     &__title
       font-size: 41px
@@ -24,6 +25,8 @@
       display: flex
       align-items: center
       margin-bottom: 25px
+      &:last-child
+        margin-bottom: 0
     &__image
       width: 40px
       height: 40px
