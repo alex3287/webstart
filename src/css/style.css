@@ -339,6 +339,30 @@ img {
   min-height: 70px;
 }
 
+.offer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offer .text__item {
+  display: block;
+  font-size: 15px;
+  font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 400;
+  max-width: 234px;
+  line-height: 24px;
+}
+
+.offer .text__phone {
+  font-size: 15px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 400;
+}
+
 @media (max-width: 1200px) {
   .offer {
     background-size: cover;
