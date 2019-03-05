@@ -184,6 +184,10 @@ img {
   padding-right: 100px;
 }
 
+.hero-text__block {
+  display: block;
+}
+
 .hero-text__title {
   font-size: 41px;
   line-height: 55px;
@@ -242,6 +246,7 @@ img {
   line-height: 24px;
   font-family: 'Museo Sans Light', sans-serif;
   font-weight: 400;
+  display: block;
 }
 
 @media (max-width: 1200px) {
