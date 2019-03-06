@@ -272,9 +272,10 @@
             <span class="form__subtitle">
                 Для этого заполните форму ниже
             </span>
-            <form action="#">
-              <input type="text" class="input brif__input" placeholder="Ваше имя">
-              <input type="text" class="input brif__input" placeholder="Ваш телефон">
+            <form action="#" id="brif-form">
+              <input type="text" name="username" class="input brif__input" placeholder="Ваше имя">
+              <input type="text" name="phone" class="input brif__input phone" placeholder="Ваш телефон">
+              <input type="text" name="email" class="input brif__input" placeholder="Ваш email">
               <button class="button brif__button">Узнать стоимость</button>
               <span class="form__description">Мы перезвоним Вам в течение 60 секунд
                 </span>
@@ -304,11 +305,47 @@
   <script src="js/modal.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/wow.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
   <script>
     // инициализация библиотеки WOW
     new WOW().init();
-    // скрипт слайдера
+    
   $(document).ready(function(){
+    // Валидация формы
+    $('#brif-form').validate({
+      rules: {
+        username: {
+          required: true,
+          minlength: 2,
+          maxlength: 15
+        },
+        email: {
+          required: true,
+          email: true
+        },
+        phone: {
+          required: true
+        }
+      },
+      messages: {
+        username: {
+          required: "Заполните поле",
+          minlength: jQuery.validator.format("Необходимо ввести не менее {0} символов"),
+          maxlength: jQuery.validator.format("Необходимо ввести не более {0} символов")
+        },
+        phone: {
+          required: "Заполните поле"
+        },
+        email: {
+          required: "Заполните поле",
+          email: "Введите корректный email"
+        }
+      }
+    });
+    // Маска для телефона
+    $('.phone').mask('+7 (999) 999 99-99')
+    // скрипт слайдера
     $('.slider').slick({
       slidesToShow: 3,
       slidesToScroll:1,
