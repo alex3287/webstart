@@ -776,4 +776,22 @@ img {
           align-items: flex-start;
   margin-bottom: 39px;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+  }
+  .contacts {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .map {
+    position: absolute;
+    left: 0;
+    top: 600px;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
