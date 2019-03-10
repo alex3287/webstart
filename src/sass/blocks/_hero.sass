@@ -51,8 +51,17 @@
       flex-direction: column
     &-list
       margin-bottom: 44px
+      display: flex
+      flex-direction: column
+      align-items: center
+      &__item
+        width: 340px
     &-text
       padding-right: 10px
+      text-align: center
+    &-image
+      padding: 0
+      margin: 0 auto
 @media (max-width: 768px)
   .hero
     padding: 25px 0
@@ -71,7 +80,6 @@
       margin-bottom: 33px
       &__item
         margin-bottom: 20px
-
       &__text
         font-size: 12px
         max-width: 208px
