@@ -212,6 +212,10 @@ img {
   font-weight: 400;
 }
 
+.hero-image {
+  padding-left: 30px;
+}
+
 .hero-list {
   padding: 0;
   margin: 0;
