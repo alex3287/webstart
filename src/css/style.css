@@ -333,6 +333,36 @@ img {
   }
 }
 
+@media (max-width: 580px) {
+  .hero-list {
+    margin-left: 0;
+  }
+  .hero-list__item {
+    width: 260px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero-text {
+    padding-top: 5px;
+  }
+  .hero-text__title {
+    text-align: justify;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .hero-text__subtitle {
+    margin-right: 5px;
+    margin-left: 6px;
+    text-align: left;
+  }
+  .hero-list__item {
+    width: 260px;
+    text-align: justify;
+  }
+}
+
 .offer {
   background: url("../img/offer/offer-bg.png") no-repeat;
   background-position: center right;
@@ -468,6 +498,7 @@ img {
 
 .price__card {
   margin-bottom: 30px;
+  margin: auto;
 }
 
 .card {
@@ -676,6 +707,7 @@ img {
 
 .interview-list__text {
   max-width: 400px;
+  width: 250px;
 }
 
 .form__title {
@@ -740,6 +772,12 @@ img {
   }
   .brif__form {
     margin-top: 80px;
+  }
+}
+
+@media (max-width: 320px) {
+  .brif .interview {
+    padding-right: 0;
   }
 }
 
