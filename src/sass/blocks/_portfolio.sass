@@ -6,6 +6,8 @@
   &__title
     margin: auto
     margin-bottom: 100px
+    font-size: 30px
+    max-width: 796px
   &__arrows
     max-width: 120px
     margin: auto
@@ -16,3 +18,14 @@
   &__item
     .slider__image
       margin: auto
+@media (max-width: 768px)
+  .portfolio
+    background: $secondary
+    &__title
+      margin: auto
+      margin-bottom: 100px
+      font-size: 24px
+      max-width: 100%
+  .slider
+    &__item
+      margin-right: 10px

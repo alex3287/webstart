@@ -3,6 +3,8 @@
   &__title
     margin: auto
     margin-bottom: 58px
+    font-size: 30px
+    max-width: 515px
   &__subtitle
     margin-bottom: 59px
     text-align: center
@@ -12,6 +14,7 @@
 .card
   text-align: center
   border: 1px solid $border-card
+  margin-bottom: 30px
   &:hover
     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1)
     transition: 0.2s
@@ -62,3 +65,9 @@
     display: flex
     justify-content: space-between
     flex-wrap: wrap
+
+
+@media (max-width: 1200px)
+  .price
+    &__title
+      font-size: 24px

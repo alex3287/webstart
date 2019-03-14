@@ -1177,6 +1177,8 @@ img {
 .portfolio__title {
   margin: auto;
   margin-bottom: 100px;
+  font-size: 30px;
+  max-width: 796px;
 }
 
 .portfolio__arrows {
@@ -1195,6 +1197,21 @@ img {
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .portfolio {
+    background: #f5f5f5;
+  }
+  .portfolio__title {
+    margin: auto;
+    margin-bottom: 100px;
+    font-size: 24px;
+    max-width: 100%;
+  }
+  .slider__item {
+    margin-right: 10px;
+  }
+}
+
 .price {
   padding-top: 100px;
 }
@@ -1202,6 +1219,8 @@ img {
 .price__title {
   margin: auto;
   margin-bottom: 58px;
+  font-size: 30px;
+  max-width: 515px;
 }
 
 .price__subtitle {
@@ -1217,6 +1236,7 @@ img {
 .card {
   text-align: center;
   border: 1px solid #e8e8e8;
+  margin-bottom: 30px;
 }
 
 .card:hover {
@@ -1299,6 +1319,12 @@ img {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  .price__title {
+    font-size: 24px;
+  }
 }
 
 .modal {
