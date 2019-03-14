@@ -1200,6 +1200,7 @@ img {
 @media (max-width: 768px) {
   .portfolio {
     background: #f5f5f5;
+    padding-bottom: 64px;
   }
   .portfolio__title {
     margin: auto;
