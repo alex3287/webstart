@@ -34,6 +34,7 @@
   &__button
     width: 100%
     min-height: 70px
+    +bold
   &-text
     display: flex
     justify-content: space-between
@@ -59,14 +60,40 @@
     &-text
       padding-top: 27px
       padding-bottom: 56px
-      display: flex
       flex-direction: column
     .text__phone
       margin-bottom: 0
+   
 @media (max-width: 768px)
   .offer
     background: #ffffff
     &-block
       width: 100%
       padding-right: 0
+      display: flex
+      flex-direction: column
+      align-items: center
+    &__item
+      display: block
+      &:first-child
+        margin-right: 20px
+    &-text
+      max-width: 100%
+      padding-top: 27px
+      padding-bottom: 56px
+      flex-direction: row
+      
+    .text__phone
+      margin-bottom: 94
+   
+
+@media (max-width: 580px)
+  .offer
+    &-text
+      padding-top: 27px
+      padding-bottom: 56px
+      flex-direction: column
+    .text__phone
+      margin-bottom: 0
+  
    

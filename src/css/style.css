@@ -1062,6 +1062,8 @@ img {
 .offer__button {
   width: 100%;
   min-height: 70px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 400;
 }
 
 .offer-text {
@@ -1103,9 +1105,6 @@ img {
   .offer-text {
     padding-top: 27px;
     padding-bottom: 56px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1123,6 +1122,48 @@ img {
   .offer-block {
     width: 100%;
     padding-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .offer__item {
+    display: block;
+  }
+  .offer__item:first-child {
+    margin-right: 20px;
+  }
+  .offer-text {
+    max-width: 100%;
+    padding-top: 27px;
+    padding-bottom: 56px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .offer .text__phone {
+    margin-bottom: 94;
+  }
+}
+
+@media (max-width: 580px) {
+  .offer-text {
+    padding-top: 27px;
+    padding-bottom: 56px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .offer .text__phone {
+    margin-bottom: 0;
   }
 }
 
