@@ -1042,7 +1042,7 @@ img {
   line-height: 35px;
   margin-bottom: 24px;
   text-align: left;
-  margin-top: 0;
+  margin-top: 84px;
 }
 
 .offer__subtitle {
@@ -1052,7 +1052,7 @@ img {
 
 .offer__input {
   margin-bottom: 30px;
-  width: 240px;
+  width: 234px;
 }
 
 .offer__input:first-child {
@@ -1086,6 +1086,7 @@ img {
   font-size: 15px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 400;
+  margin-bottom: 92px;
 }
 
 @media (max-width: 1200px) {
