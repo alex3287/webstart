@@ -1100,6 +1100,20 @@ img {
   .offer__button {
     font-size: 13px;
   }
+  .offer-text {
+    padding-top: 27px;
+    padding-bottom: 56px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .offer .text__phone {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1115,6 +1129,8 @@ img {
 .portfolio {
   background: #f5f5f5 url("../img/portfolio/portfolio-pattern.jpg") repeat-y center left;
   background-size: 50%;
+  padding-top: 100px;
+  padding-bottom: 187px;
 }
 
 .portfolio__title {
@@ -1136,6 +1152,10 @@ img {
 
 .slider__item .slider__image {
   margin: auto;
+}
+
+.price {
+  padding-top: 100px;
 }
 
 .price__title {
@@ -1318,6 +1338,7 @@ img {
 
 .interview__title {
   margin-bottom: 50px;
+  margin-top: 106px;
   font-size: 22px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 400;
@@ -1365,6 +1386,7 @@ img {
 
 .form__title {
   margin-bottom: 50px;
+  margin-top: 103px;
   font-size: 22px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 400;
@@ -1378,6 +1400,7 @@ img {
 
 .form__description {
   display: block;
+  margin-bottom: 93px;
 }
 
 @media (max-width: 1200px) {
