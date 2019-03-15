@@ -1913,6 +1913,10 @@ img {
   position: relative;
 }
 
+.footer-phone {
+  text-decoration: none;
+}
+
 .map {
   position: absolute;
   left: 0;
@@ -1971,10 +1975,6 @@ img {
       -ms-flex-align: start;
           align-items: flex-start;
   margin-bottom: 39px;
-}
-
-.phone {
-  text-decoration: none;
 }
 
 @media (max-width: 768px) {
