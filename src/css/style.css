@@ -1265,14 +1265,18 @@ img {
 
 @media (max-width: 768px) {
   .portfolio {
+    padding-top: 40px;
     background: #f5f5f5;
-    padding-bottom: 64px;
+    padding-bottom: 60px;
   }
   .portfolio__title {
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 41px;
     font-size: 24px;
     max-width: 100%;
+  }
+  .portfolio__arrows {
+    margin-top: 46px;
   }
   .slider__item {
     margin-right: 10px;
@@ -1286,15 +1290,6 @@ img {
 }
 
 @media (max-width: 320px) {
-  .portfolio {
-    padding-top: 40px;
-  }
-  .portfolio__title {
-    margin-bottom: 41px;
-  }
-  .portfolio__arrows {
-    margin-top: 46px;
-  }
   .slider__image {
     width: 246px;
   }
