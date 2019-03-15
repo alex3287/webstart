@@ -1177,6 +1177,11 @@ img {
 }
 
 @media (max-width: 580px) {
+  .offer-block {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
   .offer-text {
     padding-top: 27px;
     padding-bottom: 56px;
@@ -1214,9 +1219,17 @@ img {
     padding-right: 62px;
     padding-left: 64px;
   }
-  .offer__text {
-    padding-top: 20px;
+  .offer__item {
+    padding-top: 10px;
     width: 224px;
+    margin-left: 8px;
+  }
+  .offer-text {
+    padding-top: 10px;
+    margin-left: 8px;
+  }
+  .text__item {
+    display: block;
   }
 }
 

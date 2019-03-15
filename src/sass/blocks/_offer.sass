@@ -93,16 +93,17 @@
 
 @media (max-width: 580px)
   .offer
+    &-block
+      align-items: flex-start
     &-text
       padding-top: 27px
       padding-bottom: 56px
       flex-direction: column
+    &__item
     .text__phone
       margin-bottom: 0
 @media (max-width: 320px)
-  .offer
-    &-block
-      
+  .offer 
     &__title
       margin-top: 45px
       margin-right: 7px
@@ -122,9 +123,15 @@
       margin-left: 8px
       padding-right: 62px
       padding-left: 64px
-    &__text
-      padding-top: 20px
+    &__item
+      padding-top: 10px
       width: 224px
+      margin-left: 8px
+    &-text
+      padding-top: 10px
+      margin-left: 8px
+  .text__item
+    display: block
 
       
 
