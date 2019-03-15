@@ -16,6 +16,7 @@
   justify-content: space-between
   &__item
     max-width: 370px
+    width: 90%
     height: 410px
     background-color: #f7f7f7
     display: flex
@@ -47,29 +48,35 @@
       margin-bottom: 44px
 
 @media (max-width: 1200px)
-  .guarantees
-    &-block
-      padding-top: 100px
-      padding-bottom: 200px
-  .document
-    justify-content: center
-
-@media (max-width: 768px)
-  .guarantees
-    &-block
-      padding-top: 59px
-      padding-bottom: 90px
-    &-title
-      font-size: 18px
-      width: 90%
   .preview
     flex-direction: column
     align-items: center
     justify-content: center
     margin: auto
+    &__item
+      margin-bottom: 28px
   .document
     flex-direction: column
     align-items: center
+
+@media (max-width: 768px)
+  .guarantees
+    &-block
+      padding-top: 40px
+      padding-bottom: 90px
+    &-title
+      font-size: 18px
+      width: 90%
+  .preview
+    &-text
+      font-size: 12px
+      line-height: 17.05px
+      width: 215px
+      margin-top: 61px
+      
+
+// @media (max-width: 560px)
+
 
     
         

@@ -21,6 +21,7 @@
     width: 100%
     max-width: 370px
     margin-bottom: 30px
+    +bold
 .interview
   padding-right: 70px
   &__title
@@ -102,12 +103,42 @@
     &-block
       flex-direction: column
     &__form
-      margin-top: 80px
+      margin-top: 10px
+      padding-left: 0
+  .form
+    &__title
+      width: 290px
+      font-size: 18px
+      line-height: 25.35px
+      margin: auto
+    &__subtitle
+      font-size: 14px
+      line-height: 26.88px
+    &__description
+      font-size: 14px
+      width: 135px
+      line-height: 24px
+      margin: auto
+      margin-bottom: 34px
     
-@media (max-width: 320px)
+@media (max-width: 560px)
   .brif
-    &__interview
-    .interview
-      padding-right: 0
+    &__input
+      width: 275px
+      font-size: 15px
+      line-height: 24px
+      margin-bottom: 8px
+    &__button
+      margin-top: 10px
+      height: 70px
+      width: 100%
+      max-width: 275px
+      margin-bottom: 30px
+      font-size: 14px
+      +bold
+    
+
+    
+      
   
       
