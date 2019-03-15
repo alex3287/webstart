@@ -12,14 +12,17 @@
   &__title
     +bold
     font-size: 22px
-    line-height: 1.4
     margin-bottom: 100px
+    line-height: 33px
   &-block
     display: flex
     justify-content: flex-end
   &-list
     padding: 0
     list-style: none
+    &__base
+      +bold
+      color: $for-foter
     &__icon
       width: 20px
       height: 20px
@@ -30,6 +33,8 @@
       display: flex
       align-items: flex-start
       margin-bottom: 39px
+.phone
+  text-decoration: none
 @media (max-width: 768px)
   .footer
     position: relative
@@ -40,9 +45,27 @@
     width: 100%
     padding-top: 60px
     padding-left: 40px
+    &__title
+      font-size: 18px
+      width: 240px
+      line-height: 1.2
+      margin-bottom: 39px
+    &__text
+      font-size: 16px
+      line-height: 36px
+    &-list
+      padding: 0
+      list-style: none
+      &__base
+        font-size: 16px
+        line-height: 26px
   .map
     position: absolute
     left: 0
     top: 600px
     width: 100%
-    
+
+@media (max-width: 560px)
+  .contacts
+    padding-left: 20px
+

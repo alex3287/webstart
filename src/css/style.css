@@ -1931,8 +1931,8 @@ img {
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 400;
   font-size: 22px;
-  line-height: 1.4;
   margin-bottom: 100px;
+  line-height: 33px;
 }
 
 .contacts-block {
@@ -1947,6 +1947,12 @@ img {
 .contacts-list {
   padding: 0;
   list-style: none;
+}
+
+.contacts-list__base {
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 400;
+  color: #000000;
 }
 
 .contacts-list__icon {
@@ -1967,6 +1973,10 @@ img {
   margin-bottom: 39px;
 }
 
+.phone {
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .footer {
     position: relative;
@@ -1979,11 +1989,35 @@ img {
     padding-top: 60px;
     padding-left: 40px;
   }
+  .contacts__title {
+    font-size: 18px;
+    width: 240px;
+    line-height: 1.2;
+    margin-bottom: 39px;
+  }
+  .contacts__text {
+    font-size: 16px;
+    line-height: 36px;
+  }
+  .contacts-list {
+    padding: 0;
+    list-style: none;
+  }
+  .contacts-list__base {
+    font-size: 16px;
+    line-height: 26px;
+  }
   .map {
     position: absolute;
     left: 0;
     top: 600px;
     width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .contacts {
+    padding-left: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
