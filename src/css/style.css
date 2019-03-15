@@ -1483,6 +1483,7 @@ img {
 .steps__title {
   margin: auto;
   margin-bottom: 59px;
+  margin-top: 100px;
 }
 
 .steps__subtitle {
@@ -1494,6 +1495,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 1200px) {
@@ -1525,6 +1527,96 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.baner {
+  background-color: #ffc000;
+}
+
+.baner-title {
+  margin: auto;
+  text-align: center;
+  font-size: 32px;
+  line-height: 50px;
+  max-width: 907px;
+  width: 90%;
+  margin-top: 99px;
+  margin-bottom: 100px;
+}
+
+.guarantees-block {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.guarantees-title {
+  width: 642px;
+  font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  margin: auto;
+  text-align: center;
+  margin-top: 143px;
+  margin-bottom: 99px;
+}
+
+.preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.preview__item {
+  max-width: 370px;
+  height: 410px;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 27px;
+}
+
+.preview-text {
+  display: block;
+  width: 282px;
+  line-height: 23px;
+  margin-left: 26px;
+  font-size: 16px;
+  font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 400;
+}
+
+.document {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.document-sheet__image {
+  width: 270px;
+  height: 360px;
+  border: 20px solid #f5f5f5;
+}
+
+.document-sheet__text {
+  width: 286px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 41px;
 }
 
 .modal {
@@ -1604,9 +1696,12 @@ img {
 }
 
 .interview__title {
+  max-width: 525px;
+  width: 90%;
   margin-bottom: 50px;
   margin-top: 106px;
   font-size: 22px;
+  line-height: 33px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 400;
 }
@@ -1655,6 +1750,7 @@ img {
   margin-bottom: 50px;
   margin-top: 103px;
   font-size: 22px;
+  line-height: 33px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 400;
 }
@@ -1702,10 +1798,10 @@ img {
 
 @media (max-width: 768px) {
   .brif {
-    background-image: url("../img/brif/brif-color-bg.png"), url("../img/brif/brif-bg.jpg");
-    background-position: top center, center bottom;
-    background-size: 100% 50%, cover;
-    background-repeat: repeat-x, no-repeat;
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 100%, 100%;
+    background-repeat: repeat-x, repeat-y;
   }
   .brif-block {
     -webkit-box-orient: vertical;

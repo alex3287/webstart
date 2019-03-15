@@ -24,9 +24,12 @@
 .interview
   padding-right: 70px
   &__title
+    max-width: 525px
+    width: 90%
     margin-bottom: 50px
     margin-top: 106px
     font-size: 22px
+    line-height: 33px
     +bold
   &__subtitle
     display: block
@@ -58,6 +61,7 @@
     margin-bottom: 50px
     margin-top: 103px
     font-size: 22px
+    line-height: 33px
     +bold
   &__subtitle
     display: block
@@ -91,14 +95,15 @@
       margin-bottom: 30px
 @media (max-width: 768px)
   .brif
-    background-image: url('../img/brif/brif-color-bg.png'), url('../img/brif/brif-bg.jpg') 
-    background-position: top center, center bottom
-    background-size: 100% 50%, cover
-    background-repeat: repeat-x, no-repeat
+    background-image: url('../img/brif/brif-color-bg.jpg'), url('../img/brif/brif-bg.jpg') 
+    background-position: top, bottom
+    background-size: 100%, 100%
+    background-repeat: repeat-x, repeat-y
     &-block
       flex-direction: column
     &__form
       margin-top: 80px
+    
 @media (max-width: 320px)
   .brif
     &__interview
