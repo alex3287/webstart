@@ -1080,6 +1080,7 @@ img {
   min-height: 70px;
   font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .offer-text {
@@ -1549,10 +1550,12 @@ img {
   text-align: center;
   font-size: 32px;
   line-height: 50px;
-  max-width: 907px;
-  width: 90%;
-  margin-top: 99px;
-  margin-bottom: 100px;
+  max-width: 950px;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 93px;
+  font-family: 'Museo Sans Light', sans-serif;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
@@ -1570,8 +1573,8 @@ img {
 }
 
 .guarantees-title {
-  width: 642px;
-  font-family: 'Museo Sans Light', sans-serif;
+  width: 682px;
+  font-family: 'Museo Sans Bold', sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 45px;

@@ -93,6 +93,8 @@
       <!-- /.container -->
     </section>
     <!-- /.hero -->
+
+
     <section class="offer section">
       <div class="container">
         <div class="offer-block">
@@ -104,9 +106,9 @@
             Оставьте заявку на разработку бесплатного дизайн-проекта!
           </span>
           <!-- /.section-subtitle -->
-          <form action="#" class="form offer__form">
-            <input type="text" class="input form offer__input" placeholder="Ваше имя">
-            <input type="text" class="input form offer__input" placeholder="Ваш телефон">
+          <form action="#" id="offer-form"  class="form offer__form">
+            <input name="username" type="text" class="input form offer__input" placeholder="Ваше имя">
+            <input name="phone" type="text" class="input form offer__input" placeholder="Ваш телефон">
             <button class="button offer__button">Получить бесплатный дизайн-проект</button>
           </form>
           <!-- /.form offer__form -->
@@ -134,6 +136,7 @@
       <!-- /.container -->
     </section>
     <!-- /.offer -->
+
     <section class="section portfolio">
       <div class="container">
         <h2 class="section-title portfolio__title">
@@ -313,7 +316,7 @@
 
     <section class="section baner">
       <div class="container">
-        <h3 class="baner-title">Ремонт обойдется Вам дешевле, так как
+        <h3 class="baner-title">Ремонт обойдется Вам дешевле, так как <br>
           мы используем качественные материалы по оптовым ценам
         </h3>
       </div>
@@ -492,6 +495,7 @@
     <!-- /.modal-dialog -->
   </div>
   <!-- /.modal -->
+
   <!-- скрипт на javascript -->
   <!-- <script src="js/main.js"></script> -->
   <!-- скрипт на jquery -->
@@ -507,6 +511,31 @@
     new WOW().init();
 
     $(document).ready(function () {
+      // Валидация первой формы
+      $('#offer-form').validate({
+        rules: {
+          username: {
+            required: true,
+            minlength: 2,
+            maxlength: 15
+          },
+          phone: {
+            required: true
+          }
+        },
+        messages: {
+          username: {
+            required: "Заполните поле",
+            minlength: jQuery.validator.format("Необходимо ввести не менее {0} символов"),
+            maxlength: jQuery.validator.format("Необходимо ввести не более {0} символов")
+          },
+          phone: {
+            required: "Заполните поле"
+          }
+        }
+      });
+      // Маска для телефона
+      $('.phone').mask('+7 (999) 999 99-99')
       // Валидация формы
       $('#brif-form').validate({
         rules: {
