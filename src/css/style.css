@@ -1884,7 +1884,7 @@ img {
     margin-right: 20px;
   }
   .form__title {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 15px;
   }
   .form__subtitle {
@@ -1912,20 +1912,20 @@ img {
     margin-top: 10px;
     padding-left: 0;
   }
-  .form {
-    margin-top: 130px;
+  .brif__form {
+    margin-top: 100px;
   }
-  .form__title {
+  .brif__title {
     width: 290px;
     font-size: 18px;
     line-height: 25.35px;
     margin: auto;
   }
-  .form__subtitle {
+  .brif__subtitle {
     font-size: 14px;
     line-height: 26.88px;
   }
-  .form__description {
+  .brif__description {
     font-size: 14px;
     width: 135px;
     line-height: 24px;
@@ -1941,7 +1941,7 @@ img {
     background-size: 90%, 100%;
     background-repeat: repeat-x, repeat-y;
   }
-  .form {
+  .brif__form {
     margin-top: 100px;
   }
 }
@@ -1953,8 +1953,8 @@ img {
     background-size: 100%, 100%;
     background-repeat: repeat-x, repeat-y;
   }
-  .form {
-    margin-top: 90px;
+  .brif__form {
+    margin-top: 100px;
   }
 }
 
@@ -1965,8 +1965,8 @@ img {
     background-size: 120%, 100%;
     background-repeat: repeat-x, repeat-y;
   }
-  .form {
-    margin-top: 90px;
+  .brif__form {
+    margin-top: 100px;
   }
 }
 
@@ -1993,7 +1993,7 @@ img {
     font-family: 'Museo Sans Bold', sans-serif;
     font-weight: 400;
   }
-  .form {
+  .brif__form {
     margin-top: 100px;
   }
 }
@@ -2005,7 +2005,7 @@ img {
     background-size: 155%, 100%;
     background-repeat: repeat-x, repeat-y;
   }
-  .form {
+  .brif__form {
     margin-top: 100px;
   }
 }
@@ -2017,7 +2017,7 @@ img {
     background-size: 175%, 100%;
     background-repeat: repeat-x, repeat-y;
   }
-  .form {
+  .brif__form {
     margin-top: 100px;
   }
 }
@@ -2029,7 +2029,7 @@ img {
     background-size: 200%, 100%;
     background-repeat: repeat-x, repeat-y;
   }
-  .form {
+  .brif__form {
     margin-top: 100px;
   }
 }
@@ -2041,7 +2041,7 @@ img {
     background-size: 220%, 100%;
     background-repeat: repeat-x, repeat-y;
   }
-  .form {
+  .brif__form {
     margin-top: 100px;
   }
 }
@@ -2053,7 +2053,7 @@ img {
     background-size: 240%, 100%;
     background-repeat: repeat-x, repeat-y;
   }
-  .form {
+  .brif__form {
     margin-top: 100px;
   }
 }
@@ -2065,7 +2065,7 @@ img {
     background-size: 270%, 100%;
     background-repeat: repeat-x, repeat-y;
   }
-  .form {
+  .brif__form {
     margin-top: 100px;
   }
 }
@@ -2077,8 +2077,8 @@ img {
     background-size: 273%, 100%;
     background-repeat: repeat-x, repeat-y;
   }
-  .form {
-    margin-top: 100px;
+  .brif__form {
+    margin-top: 0;
   }
 }
 
