@@ -1645,6 +1645,10 @@ img {
 }
 
 @media (max-width: 1200px) {
+  .guarantees-block {
+    padding-top: 40px;
+    padding-bottom: 90px;
+  }
   .preview {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1686,6 +1690,13 @@ img {
     line-height: 17.05px;
     width: 215px;
     margin-top: 61px;
+  }
+}
+
+@media (max-width: 560px) {
+  .guarantees-block {
+    padding-top: 40px;
+    padding-bottom: 0;
   }
 }
 
@@ -1881,12 +1892,15 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .brif .interview {
+  .brif .interview__title {
     margin-top: 46px;
   }
   .brif__form {
     margin-top: 10px;
     padding-left: 0;
+  }
+  .form {
+    margin-top: 130px;
   }
   .form__title {
     width: 290px;
@@ -1907,7 +1921,49 @@ img {
   }
 }
 
+@media (max-width: 860px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 90%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
+  .form {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 100%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
+  .form {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 620px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 120%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
+  .form {
+    margin-top: 90px;
+  }
+}
+
 @media (max-width: 560px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 135%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
   .brif__input {
     width: 275px;
     font-size: 15px;
@@ -1923,6 +1979,93 @@ img {
     font-size: 14px;
     font-family: 'Museo Sans Bold', sans-serif;
     font-weight: 400;
+  }
+  .form {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 490px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 155%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
+  .form {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 425px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 175%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
+  .form {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 405px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 200%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
+  .form {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 365px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 220%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
+  .form {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 335px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 240%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
+  .form {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 325px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 270%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
+  .form {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  .brif {
+    background-image: url("../img/brif/brif-color-bg.jpg"), url("../img/brif/brif-bg.jpg");
+    background-position: top, bottom;
+    background-size: 273%, 100%;
+    background-repeat: repeat-x, repeat-y;
+  }
+  .form {
+    margin-top: 100px;
   }
 }
 
