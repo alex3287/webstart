@@ -1175,6 +1175,9 @@ img {
   .offer .text__phone {
     margin-bottom: 94;
   }
+  .form {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 580px) {
@@ -1194,9 +1197,15 @@ img {
   .offer .text__phone {
     margin-bottom: 0;
   }
+  .form {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 320px) {
+  .form {
+    margin-top: 10px;
+  }
   .offer__title {
     margin-top: 45px;
     margin-right: 7px;
@@ -1849,7 +1858,7 @@ img {
   margin-bottom: 93px;
 }
 
-.error {
+.form label {
   border: none;
 }
 
